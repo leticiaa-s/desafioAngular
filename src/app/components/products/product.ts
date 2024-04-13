@@ -1,4 +1,4 @@
-export interface Product {
+export interface IProduct {
     id: number,
     title: string,
     description: string,
@@ -10,4 +10,8 @@ export interface Product {
     category: string,
     thumbnail: string,
     images: string[]
+}
+
+export interface IAllProducts {
+    products: IProduct[];
 }
