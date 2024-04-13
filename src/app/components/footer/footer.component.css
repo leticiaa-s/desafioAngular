@@ -1,0 +1,10 @@
+.title a{
+    font-family: Josefin Sans;
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+}
+
+.title h1{
+    text-align: center;
+}
