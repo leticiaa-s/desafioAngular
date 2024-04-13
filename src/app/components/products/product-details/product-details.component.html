@@ -1,0 +1,14 @@
+<section class="container-product_details">
+<div class="container-images">
+    <div class="container-image" *ngFor="let urlImage of product.images">
+    <img [src]="urlImage" alt="">
+    </div>
+</div>
+<div class="container-details">
+    <h2>{{ product.title }}</h2>
+    <h3>{{ product.price | currency: 'BRL' }}</h3>
+    <p>Desconto de {{ product.discountPercentage | currency: 'BRL' }}</p>
+    <p>{{ product.description }}</p>
+    <p>Estoque disponível: {{ product.stock }}</p>
+</div>
+</section>
