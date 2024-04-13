@@ -1,0 +1,30 @@
+.container-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title {
+    display: flex;
+}
+
+h1 {
+    font-family: Josefin Sans;
+    font-weight: 200;
+}
+
+.container-menu ul{
+    font-family: Josefin Sans;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.container-menu a{
+    padding: 10px 10px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+}
