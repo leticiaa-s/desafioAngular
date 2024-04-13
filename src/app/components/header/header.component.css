@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .title {
     display: flex;
+}
+
+.title a{
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
@@ -23,8 +29,12 @@ h1 {
 
 .container-menu a{
     padding: 10px 10px;
-    color: var(--gray);
+    color: black;
     font-weight: 400;
     font-size: 22px;
     text-decoration: none;
+}
+
+.container-menu a:hover{
+    color: var(--gray);
 }

@@ -1,6 +1,6 @@
 <section class="product-list">
         <div class="product-list_card" *ngFor="let product of products">
-            <a href="" class="product-list_link">
+            <a routerLink="/products/{{ product.id }}" class="product-list_link">
             <img [src]="product.images[0]" [alt]="product.title">
             <h2>{{ product.title | uppercase }}</h2>
             <small>{{ product.brand }}</small>

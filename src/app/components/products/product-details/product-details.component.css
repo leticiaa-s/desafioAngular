@@ -1,0 +1,25 @@
+.container-product_details{
+    font-family: Josefin Sans;
+    width: 450px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container-image img{
+    width: 16vw;
+    height: 18vh;
+    padding-right: 8px;
+}
+
+.container-images {
+    display: grid;
+    width: 320px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-details{
+    text-align: center;
+    margin: 0 auto;
+}
